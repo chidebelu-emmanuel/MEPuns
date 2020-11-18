@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "963642661465",
+    "firebase_url": "https://mepuns-9b73b.firebaseio.com",
+    "project_id": "mepuns-9b73b",
+    "storage_bucket": "mepuns-9b73b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:963642661465:android:39bc05b082224699ee2f48",
+        "android_client_info": {
+          "package_name": "com.example.mepuns"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "963642661465-oev94c8s6ce4oo8a4p5tat8vrdao8g3e.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDGyf0kOetUCTP7bWU3TDtEH1C21pf28eA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "963642661465-oev94c8s6ce4oo8a4p5tat8vrdao8g3e.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@color/black"
+    android:layout_height="match_parent"
+    tools:context=".SignUpActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_marginTop="5dp"
+        android:layout_height="wrap_content"
+        android:text="sign up"
+        android:textStyle="bold"
+        android:drawableTint="#FFFFFF"
+        android:textColor="#F6F1F1"
+        android:gravity="center"
+        android:textSize="45sp"/>
+    <ProgressBar
+        android:id="@+id/progress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"/>
+
+   <com.google.android.material.textfield.TextInputLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:layout_marginTop="20dp"
+       app:hintAnimationEnabled="true"
+      android:textColorHint="@color/purple_700">
+
+       <EditText
+           android:id="@+id/Email"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:inputType="textEmailAddress"
+           android:hint="Email:"
+           android:backgroundTint="#DACDCD"
+           style="@style/Base.CardView"
+           android:textColor="@color/purple_700"
+           android:layout_marginLeft="15dp"
+           android:layout_marginRight="15dp"/>
+   </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        app:hintAnimationEnabled="true"
+        android:textColorHint="@color/purple_700">
+
+        <EditText
+            android:id="@+id/UserName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="text"
+            android:hint="username:"
+            android:backgroundTint="#DACDCD"
+            style="@style/Base.CardView"
+            android:textColor="@color/purple_700"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"/>
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        app:passwordToggleTint="@color/purple_700"
+        android:textColorHint="@color/purple_700"
+        app:passwordToggleEnabled="true">
+
+        <EditText
+            android:id="@+id/Password"
+            android:layout_width="match_parent"
+            android:background="#DACDCD"
+            android:inputType="textPassword"
+            android:hint="Password:"
+            android:textColor="@color/purple_700"
+            android:layout_marginRight="15sp"
+            android:layout_marginLeft="15dp"
+            android:layout_height="wrap_content" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/But"
+            android:layout_width="wrap_content"
+            android:layout_margin="20dp"
+            android:backgroundTint="#FFFFFF"
+            android:layout_height="wrap_content"
+            android:text="sign Up"
+            android:textColor="#000"/>
+    </LinearLayout>
+
+
+
+</LinearLayout>
